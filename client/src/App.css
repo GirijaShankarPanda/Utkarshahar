@@ -1,0 +1,295 @@
+/* Y.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Navbar Styles */
+/* Navbar Styles */
+html{
+  scroll-behavior: smooth;
+}
+.w3-top {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+  transition: top 0.3s;
+}
+
+#myNavbar a {
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.3s;
+}
+
+#myNavbar a:hover {
+  color: #f1f1f1;
+}
+
+.w3-sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #111;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.w3-sidebar a {
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.w3-sidebar a:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.w3-top .w3-bar {
+  width: 100%;
+  display: block;
+}
+
+.w3-bar .w3-bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  outline: none;
+  display: block;
+}
+
+.w3-bar .w3-button {
+  white-space: nowrap;
+}
+
+/* Form Styles */
+.wrapper {
+  position: absolute;
+  top: -250px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0s linear 0.3s;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.wrapper.active {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.form-box-container {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-box {
+  position: absolute;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transform: scale(0.8);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+  display: none;
+}
+
+.form-box.active {
+  transform: scale(1);
+  opacity: 1;
+  display: block;
+}
+
+.form-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.icon-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.input-box input {
+  width: calc(100% - 40px);
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.input-box label {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: #999;
+  transition: top 0.3s, left 0.3s, color 0.3s;
+  pointer-events: none;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+  top: -15px;
+  left: 20px;
+  color: #333;
+  font-size: 12px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+}
+
+.remember-forgot a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.login-register {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-register p {
+  font-size: 14px;
+}
+
+.login-register .register-link,
+.login-register .login-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.login-register .register-link:hover,
+.login-register .login-link:hover {
+  text-decoration: underline;
+}
+
+.login-register a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-register a:hover {
+  text-decoration: underline;
+}
+
+select {
+  display: block;
+}
+
+.form-control {
+  display: block;
+}
+
+#btn10 {
+  width: 15rem;
+  border-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #087129;
+  color: #ffffff;
+  font-size: x-large;
+  position: absolute;
+  right: 100px;
+  bottom: 20px;
+}

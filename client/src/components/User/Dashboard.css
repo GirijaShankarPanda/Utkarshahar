@@ -1,0 +1,21 @@
+.dashboard-container {
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-top: 70px;
+  }
+  
+  .w3-top {
+    position: Fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .row{
+    display: flex;
+  }
+  
+  .container-flui {
+    margin-top: 70px; /* Adjust based on the height of the fixed top bar */
+  }
+  
+  /* Additional styling to ensure smooth scrolling and layout adjustments */
+  

@@ -1,0 +1,23 @@
+.profile-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.profile-heading {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.profile-details p {
+  font-size: 18px;
+  color: #495057;
+  margin: 10px 0;
+}
+
+.profile-details p strong {
+  color: #343a40;
+}

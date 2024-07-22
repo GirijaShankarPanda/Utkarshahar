@@ -1,0 +1,107 @@
+/* Styles for the donation form container */
+.donation-form {
+    position: absolute;
+    top: 53vh; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    z-index: 10; /* Ensure it is on top of other content */
+    background-color:#fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    max-height: 90vh; 
+    overflow-y: auto;
+  }
+  .close-button{
+    position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+
+  }
+  /* Styles for the pop-up content */
+  .pop-up-content {
+    text-align: center;
+    color: black;
+  }
+  
+  /* Styles for section headers */
+  .sec1 h5, .sec3 label {
+    margin-top: 0px;
+    z-index: 11;
+  }
+  .sec1{
+    padding: 0px;
+  }
+  .sec3{
+    padding: 0px;
+  }
+  .sec2 {
+    margin-top: 0px;
+}
+  /* Styles for checkboxes */
+  .form-check-label {
+    margin-left: 10px;
+  }
+  
+  /* Styles for item list */
+  .item-wrapper {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  .col-mt-3{
+    padding: 2px;
+    padding-left: 10px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .sec1 #head {
+    z-index: 12;
+    display: block;
+    color:black
+  }
+  
+  /* Styles for form inputs and buttons */
+  .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .donation-form {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+  
