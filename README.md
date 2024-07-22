@@ -5,11 +5,17 @@ Utkarshahar is a full-stack web application developed using the MERN stack (`Mon
 ## Table of Contents
 
 - [Overview](#overview)
+  
 - [Features](#features)
+  
 - [Technologies Used](#technologies-used)
+  
 - [Installation](#installation)
+  
 - [Usage](#usage)
+  
 - [Contributing](#contributing)
+  
 - [License](#license)
 
 ## Overview
