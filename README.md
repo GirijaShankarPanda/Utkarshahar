@@ -73,6 +73,17 @@ To run this project locally, follow these steps:
 - **Donating Food**: Add details of the surplus food items you wish to donate.
 - **Admin Access**: Register and then log in as an admin to view, accept donation(as per your convenience) requests and update donation statuses.
 
+## Meet the Team 👥
+
+We are a group of passionate individuals committed to making this project a success. Get to know us below:
+
+| <img src="https://avatars.githubusercontent.com/u/104772357?v=4" width="150" height="150"> | <img src="https://avatars.githubusercontent.com/u/109521753?v=4" width="150" height="150"> | <img src="https://avatars.githubusercontent.com/u/142430073?v=4" width="150" height="150"> | <img src="https://via.placeholder.com/100" width="150" height="150"> |
+|:---:|:---:|:---:|:---:|
+| **Girija** | **Subhasis** | **Satyam** | **Soumya** |
+| [![GitHub](https://img.shields.io/badge/GitHub-AliceJohnson-black)](https://github.com/GirijaShankarPanda) | [![GitHub](https://img.shields.io/badge/GitHub-BobSmith-black)](https://github.com/Subhasis2610) | [![GitHub](https://img.shields.io/badge/GitHub-CharlieBrown-black)](https://github.com/codingKnight14) | [![GitHub](https://img.shields.io/badge/GitHub-DanaWhite-black)](https://github.com/soumyaprakashpatra) |
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-AliceJohnson-blue)](https://www.linkedin.com/in/girija-shankar-panda-27331923b/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-BobSmith-blue)](https://www.linkedin.com/in/subhasis-patra-71b6b8243/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-CharlieBrown-blue)](https://www.linkedin.com/in/satyam-mahana-b47309268/) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-DanaWhite-blue)](https://www.linkedin.com/in/soumya-prakash-patra-043502244/) |
+
+
 ## Contributing
 
 Contributions are welcome! To contribute, follow these steps:
