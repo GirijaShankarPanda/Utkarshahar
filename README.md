@@ -77,7 +77,7 @@ To run this project locally, follow these steps:
 
 We are a group of passionate individuals committed to making this project a success. Get to know us below:
 
-
+| <img src="https://avatars.githubusercontent.com/u/104772357?v=4" width="150" height="150"> | <img src="https://avatars.githubusercontent.com/u/109521753?v=4" width="150" height="150"> | <img src="https://avatars.githubusercontent.com/u/142430073?v=4" width="150" height="150"> | <img src="https://via.placeholder.com/100" width="150" height="150"> |
 |:---:|:---:|:---:|:---:|
 | **Girija** | **Subhasis** | **Satyam** | **Soumya** |
 | [![GitHub](https://img.shields.io/badge/GitHub-Girija-black)](https://github.com/GirijaShankarPanda) | [![GitHub](https://img.shields.io/badge/GitHub-Subhasis-black)](https://github.com/Subhasis2610) | [![GitHub](https://img.shields.io/badge/GitHub-Satyam-black)](https://github.com/codingKnight14) | [![GitHub](https://img.shields.io/badge/GitHub-Soumya-black)](https://github.com/soumyaprakashpatra) |
